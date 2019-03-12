@@ -11,7 +11,7 @@ source:
   sha256: 0a8c06f7622fc4ba067a3edc98661e3e9af93e6d51d94586bd85dbc49ad9eab2
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
@@ -21,9 +21,9 @@ requirements:
     - python
   run:
     - python
-    - requests >=2.0.0,<3.0.0
-    - six >=1.10.0,<2.0.0
-    - pyjwt[crypto] >=1.5.3,<2.0.0
+    - requests >=2.0.0
+    - six >=1.10.0
+    - pyjwt[crypto] >=1.5.3
 
 test:
   imports:
