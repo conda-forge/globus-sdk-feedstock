@@ -1,5 +1,5 @@
 {% set name = "globus-sdk" %}
-{% set version = "1.8.0" %}
+{% set version = "1.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,12 +8,12 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://github.com/globus/globus-sdk-python/archive/{{ version }}.tar.gz
-  sha256: ebf70be1a6628651b21219644db2be3e0b7ef92597f75b83ff6f47567a94d8e0
+  sha256: 5abe39d50e7a7b350459d0259896e73dc2eca1908c5111779bf1d700e13982b1
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
