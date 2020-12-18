@@ -18,9 +18,9 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
-    - python
+    - python >=3.6
     - requests >=2.9.2,<3.0.0
     - six >=1.10.0,<2.0.0
     - pyjwt[crypto] >=1.5.3,<2.0.0
