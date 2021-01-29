@@ -3,7 +3,7 @@ About globus-sdk
 
 Home: https://github.com/globus/globus-sdk-python
 
-Package license: Apache 2.0
+Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/globus-sdk-feedstock/blob/master/LICENSE.txt)
 
