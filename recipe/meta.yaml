@@ -32,6 +32,10 @@ test:
     - globus_sdk.authorizers
     - globus_sdk.transfer
     - globus_sdk.transfer.response
+  commands:
+    - pip check
+  requires: 
+    - pip
 
 about:
   home: https://github.com/globus/globus-sdk-python
