@@ -1,5 +1,5 @@
 {% set name = "globus-sdk" %}
-{% set version = "2.0.1" %}
+{% set version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://github.com/globus/globus-sdk-python/archive/{{ version }}.tar.gz
-  sha256: 1989898fae530c82a56b5fd0d995f7deb967c4467f2e90b4e3e5b33394a4a3b1
+  sha256: 2974fb026bf656ba9eaf49fad87427272ffd7cef664bbd26687adcae8f3cb2f6
 
 build:
   number: 0
@@ -22,19 +22,14 @@ requirements:
   run:
     - python >=3.6
     - requests >=2.9.2,<3.0.0
-    - pyjwt[crypto] >=1.5.3,<2.0.0
+    - pyjwt >=2.0.0,<3.0.0
 
 test:
   imports:
     - globus_sdk
-    - globus_sdk.auth
-    - globus_sdk.auth.client_types
-    - globus_sdk.authorizers
-    - globus_sdk.transfer
-    - globus_sdk.transfer.response
   commands:
     - pip check
-  requires: 
+  requires:
     - pip
 
 about:
