@@ -27,9 +27,6 @@ requirements:
 test:
   imports:
     - globus_sdk
-    - globus_sdk.authorizers
-    - globus_sdk.transfer
-    - globus_sdk.transfer.response
   commands:
     - pip check
   requires:
