@@ -27,8 +27,6 @@ requirements:
 test:
   imports:
     - globus_sdk
-    - globus_sdk.auth
-    - globus_sdk.auth.client_types
     - globus_sdk.authorizers
     - globus_sdk.transfer
     - globus_sdk.transfer.response
