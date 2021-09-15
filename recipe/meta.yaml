@@ -1,5 +1,5 @@
 {% set name = "globus-sdk" %}
-{% set version = "3.0.0" %}
+{% set version = "3.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://github.com/globus/globus-sdk-python/archive/{{ version }}.tar.gz
-  sha256: 2974fb026bf656ba9eaf49fad87427272ffd7cef664bbd26687adcae8f3cb2f6
+  sha256: 71655f3a4210b8a5b3bf8a51491e6b24f78cdaa64b7b17d857d2c168b47b0d88
 
 build:
   number: 0
