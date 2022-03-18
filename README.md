@@ -5,7 +5,7 @@ Home: https://github.com/globus/globus-sdk-python
 
 Package license: Apache-2.0
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/globus-sdk-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/globus-sdk-feedstock/blob/main/LICENSE.txt)
 
 Summary: Globus SDK for Python
 
@@ -21,8 +21,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6239&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/globus-sdk-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6239&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/globus-sdk-feedstock?branchName=main">
       </a>
     </td>
   </tr>
