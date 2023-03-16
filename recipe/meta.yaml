@@ -1,5 +1,5 @@
 {% set name = "globus-sdk" %}
-{% set version = "3.17.0" %}
+{% set version = "3.18.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/globus-sdk-{{ version }}.tar.gz
-  sha256: d850b2a88463a0437024734e0a78a49ef896530ec94263b54614ca701960794c
+  sha256: 5eea8de8b21802d655c237b87c4f29668d7d8486745dcc4820e37caaa41bcfc2
 
 build:
   number: 0
