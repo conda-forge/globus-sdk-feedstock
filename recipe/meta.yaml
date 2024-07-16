@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
     - setuptools >=61.2
   run:
-    - python >=3.7
+    - python >=3.8
     - cryptography >=3.3.1,!=3.4.0
     - pyjwt >=2.0.0,<3.0.0
     # pyjwt[crypto] has different constraints on cryptography depending on the version
