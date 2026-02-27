@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: globus-sdk
-  version: 4.4.0
+  version: "4.4.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: c89c917e4a0879b8140f62068e2f20eea8efb50d911ba189cf632491fd2694c1
+  sha256: 587bcc941d4f97ca28ea5317713a0987b709fc394ca0229cd158b9d8fdae7bbb
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
