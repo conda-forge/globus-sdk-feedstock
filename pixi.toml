@@ -5,7 +5,7 @@
 
 [workspace]
 name = "globus-sdk-feedstock"
-version = "2026.5.29"  # conda-smithy version used to generate this file
+version = "2026.6.14"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/globus-sdk-feedstock"
 authors = ["@conda-forge/globus-sdk"]
 channels = ["conda-forge"]
