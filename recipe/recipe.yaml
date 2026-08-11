@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: globus-sdk
-  version: "4.8.1"
+  version: "4.9.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 564b168e6fdcac2fe96b1e9a76ebd05666be84d34748315b579b0ecf9956e21a
+  sha256: 41cdc8611e6d48133fc75e20162068c8ad583a63f33245bd2e2d64edd6425a71
 
 build:
   number: 0
@@ -37,7 +37,9 @@ tests:
         - globus_sdk
         - globus_sdk.authorizers
       pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
 
 about:
   license: Apache-2.0
